@@ -43,10 +43,12 @@ class Tester:
                         correct_predictions += 1
 
             avg_error = total_error / len(patterns)
-            f.write(f"\nŚredni błąd MSE: {avg_error}\n")
+            f.write(f"\nŚredni błąd: {avg_error}\n")
 
             if is_classification and len(patterns[0][1]) == 3:
                 f.write(f"\nPoprawnie sklasyfikowane: {correct_predictions} / {len(patterns)}\n")
+                accuracy = (correct_predictions / len(patterns)) * 100
+                f.write(f"Dokładność perceptronu: {accuracy}%\n")
                 f.write("Macierz pomyłek:\n")
                 f.write(str(confusion_matrix) + "\n\n")
 

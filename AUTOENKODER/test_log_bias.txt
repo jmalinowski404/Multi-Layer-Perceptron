@@ -1,0 +1,62 @@
+Wejście: [1.0, 0.0, 0.0, 0.0]
+Oczekiwane: [1.0, 0.0, 0.0, 0.0]
+Wyjście mlp: [0.869, 0.06, 0.119, 0.001]
+Błąd wzorca: 0.017374345808045432
+Błędy na wyjściach: [0.13064344085464907, -0.05958839775058499, -0.11886946985975183, -0.0005049421039116398]
+Szczegóły warstw (od wyjścia do wejścia):
+  Warstwa: Wyjściowa
+    Neuron 0: wyjście=0.8694, wagi=[-6.0297, 5.1724]
+    Neuron 1: wyjście=0.0596, wagi=[-7.2573, -7.0382]
+    Neuron 2: wyjście=0.1189, wagi=[2.7839, 7.303]
+    Neuron 3: wyjście=0.0005, wagi=[6.5854, -5.366]
+  Warstwa: Ukryta 0
+    Neuron 0: wyjście=0.0220, wagi=[-3.5104, -3.2873, 3.1434, 4.4848]
+    Neuron 1: wyjście=0.7607, wagi=[1.6926, -3.9327, 5.1282, -2.6269]
+----------------------------------------
+Wejście: [0.0, 1.0, 0.0, 0.0]
+Oczekiwane: [0.0, 1.0, 0.0, 0.0]
+Wyjście mlp: [0.118, 0.922, 0.001, 0.028]
+Błąd wzorca: 0.010355105545243236
+Błędy na wyjściach: [-0.11787371480174325, 0.0775378159637955, -0.0005749775419946939, -0.02834704474393321]
+Szczegóły warstw (od wyjścia do wejścia):
+  Warstwa: Wyjściowa
+    Neuron 0: wyjście=0.1179, wagi=[-6.0297, 5.1724]
+    Neuron 1: wyjście=0.9225, wagi=[-7.2573, -7.0382]
+    Neuron 2: wyjście=0.0006, wagi=[2.7839, 7.303]
+    Neuron 3: wyjście=0.0283, wagi=[6.5854, -5.366]
+  Warstwa: Ukryta 0
+    Neuron 0: wyjście=0.0273, wagi=[-3.5104, -3.2873, 3.1434, 4.4848]
+    Neuron 1: wyjście=0.0113, wagi=[1.6926, -3.9327, 5.1282, -2.6269]
+----------------------------------------
+Wejście: [0.0, 0.0, 1.0, 0.0]
+Oczekiwane: [0.0, 0.0, 1.0, 0.0]
+Wyjście mlp: [0.077, 0.0, 0.904, 0.061]
+Błąd wzorca: 0.009387606492110217
+Błędy na wyjściach: [-0.07665776079481297, -1.5464057834380032e-05, 0.09593732991770054, -0.060785106590931164]
+Szczegóły warstw (od wyjścia do wejścia):
+  Warstwa: Wyjściowa
+    Neuron 0: wyjście=0.0767, wagi=[-6.0297, 5.1724]
+    Neuron 1: wyjście=0.0000, wagi=[-7.2573, -7.0382]
+    Neuron 2: wyjście=0.9041, wagi=[2.7839, 7.303]
+    Neuron 3: wyjście=0.0608, wagi=[6.5854, -5.366]
+  Warstwa: Ukryta 0
+    Neuron 0: wyjście=0.9457, wagi=[-3.5104, -3.2873, 3.1434, 4.4848]
+    Neuron 1: wyjście=0.9900, wagi=[1.6926, -3.9327, 5.1282, -2.6269]
+----------------------------------------
+Wejście: [0.0, 0.0, 0.0, 1.0]
+Oczekiwane: [0.0, 0.0, 0.0, 1.0]
+Wyjście mlp: [0.0, 0.009, 0.01, 0.932]
+Błąd wzorca: 0.0024103982399333317
+Błędy na wyjściach: [-0.0004818956986302141, -0.009181285230785912, -0.010147348530151739, 0.0680683448874797]
+Szczegóły warstw (od wyjścia do wejścia):
+  Warstwa: Wyjściowa
+    Neuron 0: wyjście=0.0005, wagi=[-6.0297, 5.1724]
+    Neuron 1: wyjście=0.0092, wagi=[-7.2573, -7.0382]
+    Neuron 2: wyjście=0.0101, wagi=[2.7839, 7.303]
+    Neuron 3: wyjście=0.9319, wagi=[6.5854, -5.366]
+  Warstwa: Ukryta 0
+    Neuron 0: wyjście=0.9852, wagi=[-3.5104, -3.2873, 3.1434, 4.4848]
+    Neuron 1: wyjście=0.0406, wagi=[1.6926, -3.9327, 5.1282, -2.6269]
+----------------------------------------
+
+Średni błąd: 0.009881864021333054
