@@ -1,0 +1,20 @@
+Wejscie: [1, 0, 0, 0]
+Warstwa ukryta: [0.111, 0.111]
+Wyjscie: [0.372, 0.085, 0.085, 0.372]
+Oczekiwane: [1, 0, 0, 0]
+
+Wejscie: [0, 1, 0, 0]
+Warstwa ukryta: [0.997, 0.012]
+Wyjscie: [0.085, 0.96, 0.0, 0.085]
+Oczekiwane: [0, 1, 0, 0]
+
+Wejscie: [0, 0, 1, 0]
+Warstwa ukryta: [0.011, 0.997]
+Wyjscie: [0.085, 0.0, 0.96, 0.085]
+Oczekiwane: [0, 0, 1, 0]
+
+Wejscie: [0, 0, 0, 1]
+Warstwa ukryta: [0.111, 0.111]
+Wyjscie: [0.372, 0.085, 0.085, 0.372]
+Oczekiwane: [0, 0, 0, 1]
+
